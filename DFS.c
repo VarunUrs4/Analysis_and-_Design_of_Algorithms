@@ -53,11 +53,8 @@ int dfs(int src)
     {
         if(vis[j]!=1)
         {
-            printf("\n Node %d is not reachable\n",j);
-        }
-        else
-        {
-            printf(" \n Node %d is reachable \n",j);
+            return 0;
         }
     }
+    return 1;
 }
